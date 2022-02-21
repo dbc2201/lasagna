@@ -2,11 +2,23 @@ public class Lasagna {
 
     private static final int EXPECTED_OVEN_TIME_IN_MINUTES = 40;
 
-    // TODO: define the 'expectedMinutesInOven()' method
+    // define the 'expectedMinutesInOven()' method
+    public int expectedMinutesInOven() {
+        return Integer.MIN_VALUE;
+    }
 
-    // TODO: define the 'remainingMinutesInOven()' method
+    // define the 'remainingMinutesInOven()' method
+    public int remainingMinutesInOven(int actualMinutes) {
+        return Integer.MIN_VALUE;
+    }
 
-    // TODO: define the 'preparationTimeInMinutes()' method
+    // define the 'preparationTimeInMinutes()' method
+    public int preparationTimeInMinutes(int numberOfLayers) {
+        return Integer.MIN_VALUE;
+    }
 
-    // TODO: define the 'totalTimeInMinutes()' method
+    // define the 'totalTimeInMinutes()' method
+    public int totalTimeInMinutes(int numberOfLayers, int actualMinutes) {
+        return Integer.MIN_VALUE;
+    }
 }
