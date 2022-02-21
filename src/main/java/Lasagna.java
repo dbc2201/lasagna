@@ -9,7 +9,7 @@ public class Lasagna {
 
     // define the 'remainingMinutesInOven()' method
     public int remainingMinutesInOven(int actualMinutes) {
-        return Integer.MIN_VALUE;
+        return EXPECTED_OVEN_TIME_IN_MINUTES - actualMinutes;
     }
 
     // define the 'preparationTimeInMinutes()' method
