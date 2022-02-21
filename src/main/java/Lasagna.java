@@ -1,6 +1,7 @@
 public class Lasagna {
 
     private static final int EXPECTED_OVEN_TIME_IN_MINUTES = 40;
+    private static final int TIME_FOR_ONE_LAYER_IN_MINUTES = 2;
 
     // define the 'expectedMinutesInOven()' method
     public int expectedMinutesInOven() {
